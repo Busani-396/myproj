@@ -6,6 +6,12 @@
  <link rel = 'stylesheet' href = "style.css"> 
  
  <style>
+ 
+ *{
+	list-style:none;
+	text-decoration:none;
+ 
+ }
 .hero{
 	width:100%;
 	display:flex;
@@ -32,8 +38,32 @@
 
 }
 
+nav span{
+	color:rgba(0,0,0,.3)
+}
+
+.logo a{
+	font-weight:900;
+	font-size:1.3em;
+	text-decoration:none;
+	color:black;
+}
 
 
+nav div ul{
+	display:flex;
+	width:500px;
+	align-items:center;
+	justify-content:space-between;
+	
+}
+
+nav{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	height:50px;
+}
 
 
 
@@ -43,6 +73,19 @@
 
 
 <body>
+<nav>
+	<div class = 'logo'>
+		<a href = 'index.html'>Big<span>.</span></a>
+	</div>
+	<div>
+		<ul>
+			<li><a href = "#">Home</a></li>
+			<li><a href = "#">About Us</a></li>
+			<li><a href = "#">Contact Us</a></li>
+			<li><a href = "#">Gallery</a></li>
+		</ul>
+	</div>
+</nav>
 	<div class = "hero">
 		<div>
 			<h1>HELLO WORLD</h1>
